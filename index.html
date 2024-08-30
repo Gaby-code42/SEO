@@ -36,7 +36,7 @@
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="lien cliquable vers mon instagram"></a></li>
 		</ul>
 	</div>
 </header>
@@ -90,7 +90,7 @@
 			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" alt="photo d'un homme afro en train de faire une grimace de peine.">
 			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" alt="photo de mariage, d'un couple de face en habis de marié sur la plage avec un palmier derrière.">
 			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" alt="photo portrait d'une femme avec des lunettes de face à travers un grillage en contre-pied.">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" alt="photo d'un concert d'Austin Neill, on peut voir le chanteur au micro, avec un jet de fumé derrière lui.">
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" alt="photo d'un concert d'Austin Neill, le chanteur est au micro, avec un jet de fumé derrière lui.">
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" alt="Photo prise au vif, d'une femme a son bureau éclatant de rire.">
 		</div>
 	</div>
@@ -147,17 +147,18 @@
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
 </div>
+<footer>
 <div id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h2>Une question ? Une demande de devis ?</h2>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 			<form action="#" method="post">
-				<label>Nom</label>
+				<label for="nom">Nom</label>
 				<input type="text" name="nom" id="nom">
-				<label>Email</label>
+				<label for="email">Email</label>
 				<input type="email" name="email" id="email">
-				<label>Message</label>
+				<label for="message">Message</label>
 				<textarea name="message" id="message" cols="30" rows="10"></textarea>
 				<input type="submit" value="Envoyer">
 			</form>
@@ -166,9 +167,31 @@
 			<img src="./assets/images/camera.png" alt="Appareil photo ancien , dans des tons chauds">
 		</div>
 	</div>
+	<div itemscope itemtype="https://schema.org/LocalBusiness" class="container localBusiness">
+		<span itemprop="name"><strong>Nina Carducci</strong></span><br>
+        <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+	        <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span><br>
+            <span itemprop="postalCode">33200</span><br>
+            <span itemprop="addressLocality">Bordeaux</span><br>
+            <span itemprop="addressCountry">France</span>
+			<span itemprop="telephone">05 56 67 78 89</span>
+        </address>
+		<div>
+		<meta itemprop="openingHours" content="Mo 10:00-19:00">
+        <meta itemprop="openingHours" content="Tu 10:00-19:00">
+        <meta itemprop="openingHours" content="We 10:00-19:00">
+        <meta itemprop="openingHours" content="Th 10:00-19:00">
+        <meta itemprop="openingHours" content="Fr 10:00-19:00">
+		<p>Je réponds au téléphone :</p>
+		<p>Le lundi de 10h à 19h<br>
+		   Le mardi de 10h à 19h<br>
+		   Le mercredi de 10h à 19h<br>
+		   Le jeudi de 10h à 19h<br>
+		   Le vendredi de 10h à 19h</p>
+	    </div>     
+	</div>
 </div>
-<footer>
-
+	
 </footer>
 <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
