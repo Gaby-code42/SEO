@@ -6,6 +6,15 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+.carousel-control-prev{
+	background-color: #000;
+}
+
+.carousel-control-next{
+	background-color: #000;
+}
+
 .top-header {
 	background-color: white;
 	position: sticky;
