@@ -2,7 +2,7 @@
 
 Audit, puis optimisation du site existant d'une photographe professionnelle, sur
 trois axes : les performances, le référencement et l'accessibilité. C'est un
-projet de la formation Intégrateur web d'OpenClassrooms.
+projet de la formation Développeur Web d'OpenClassrooms.
 
 🔗 [Voir le site](https://gaby-code42.github.io/SEO/)
 
